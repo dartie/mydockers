@@ -1,0 +1,39 @@
+site_name: Notebook
+docs_dir: /home/knowledge-base
+plugins:
+  #- pdf-export:
+  #    combined: true
+  #- with-pdf
+  - search
+extra_css:
+  - assets/stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite:
+      guess_lang: false
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+theme:
+  name: 'material'
+extra_css:
+  - 'extra.css'
+extra:
+  social:
+    - icon: 'fontawesome/brands/github-alt'
+      link: 'https://github.com/dartie'
+repo_name: 'dartie/knowledge-base'
+repo_url: 'https://github.com/dartie/knowledge-base'
+edit_uri: ''
